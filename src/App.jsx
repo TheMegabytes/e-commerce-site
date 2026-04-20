@@ -4,6 +4,12 @@ import TopProducts from "./components/TopProducts";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 
+import img1 from "/image1.jpeg";
+import img2 from "/image2.jpeg";
+import img3 from "/image3.jpeg";
+import img4 from "/image4.jpeg";
+import img8 from "/image8.jpeg";
+
 function App() {
   return (
     <div>
@@ -14,7 +20,7 @@ function App() {
         title="Why Choose Us?"
         description="We make online shopping simple, 
         safe and rewarding with premium products, fast delivery and customer-first service."
-        imgSrc={"/image1.jpeg"}
+        imgSrc={img1}
         ctaTitle="Learn More"
       />
 
@@ -23,7 +29,7 @@ function App() {
         title="Shop By Category"
         description="Find everything you need in just a few clicks - from fashion and
         electronics to home assets."
-        imgSrc={"/image2.jpeg"}
+        imgSrc={img2}
         ctaTitle="Browse Categories"
       />
 
@@ -31,7 +37,7 @@ function App() {
         title="Trending Right Now"
         description="Discover what's hot! Shop the
         products everyone is loving today."
-        imgSrc={"/image3.jpeg"}
+        imgSrc={img3}
         ctaTitle="View Best Sellers"
       />
 
@@ -39,7 +45,7 @@ function App() {
         classNames="flex-row-reverse"
         title="Limited Time Deals 🔥"
         description="Grab exclusive discounts and special offers before they're gone."
-        imgSrc={"/image4.jpeg"}
+        imgSrc={img4}
         ctaTitle="Shop Deals"
       />
 
@@ -47,7 +53,7 @@ function App() {
         title="Loved By Thousands"
         description="Amazing experience! The delivery was quick, and product quality
         exceeded expectations"
-        imgSrc={"/image8.jpeg"}
+        imgSrc={img8}
         ctaTitle="Shop Now"
       />
 

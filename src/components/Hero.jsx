@@ -1,3 +1,5 @@
+import heroImg from "/Hero.jpeg";
+
 function Hero() {
   return (
     <div
@@ -25,7 +27,7 @@ function Hero() {
 
       <div className="flex justify-center items-center w-[20rem] lg:w-120 lg:h-100 border border-blue-300 overflow-hidden rounded-xl bg-white">
         <img
-          src={"/Hero.jpeg"}
+          src={heroImg}
           alt="Shopping hero"
           className="w-full h-full object-cover"
         />
